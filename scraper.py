@@ -29,7 +29,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('parthgarg2013@gmail.com','GENERATE-YOUR-GMAIL-ACCOUNT-KEY')
+    server.login('yashranamzn7788@gmail.com','GENERATE-YOUR-GMAIL-ACCOUNT-KEY')
 
     subject='Price fell down'
     body='Check the amazon link https://www.amazon.in/-/hi/MYD82HN-A-New-Apple-MacBook/dp/B08N5WRWNW?ref_=ast_sto_dp&th=1'
@@ -37,8 +37,8 @@ def send_mail():
     msg=f"Subject: {subject}\n\n{body}"
 
     server.sendmail(
-        'parthgarg2013@gmail.com',
-        'parthgarg2013@gmail.com',
+        'yashranamzn7788@gmail.com',
+        'yashranamzn7788@gmail.com',
         msg
     )
     
